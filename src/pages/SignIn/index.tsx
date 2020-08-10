@@ -51,7 +51,7 @@ const SignIn: React.FC = () => {
         }
 
         addToast({
-          type: 'success',
+          type: 'error',
           title: 'Erro na auth',
           description: 'Ocorreu um erro ai',
         });
